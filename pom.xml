@@ -46,6 +46,14 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.3.4</version>
         </dependency>
+
+        <!-- this makes the app auto reload after change, but with some delay-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <!-- option true means this is not part of application code wont be packed deploy to prod, only used in development -->
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>

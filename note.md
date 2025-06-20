@@ -15,3 +15,11 @@
   - resources is config file/non-java file
     - we can specify the server port
     - our database settings
+- MVC:
+  - model
+  - view: src->resources->static->`index.html`
+  - controller: src->main->java->com.example.store->`HomeController`
+
+- run the application:
+  - click the run button on the top or 
+  - type `./mvnw spring-boot:run` in the command line
