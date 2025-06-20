@@ -1,7 +1,7 @@
 ## springboot notes
 - .idea is the config file
 - .mvn is the part of maven wrapper, way to run maven. so when every machine run this project, its using the same maven version. it specify which version of maven we are going to build the project. intellij comes with maven built-in, this is differetn than the global maven you installed in your machine.
-- mvnw for linux and macos, mvnw.cmd for windows. they are shell scripts, they will autoly download the version of maven specified in config file in .mvn
+- mvnw for linux and macos, mvnw.cmd for windows. they are shell scripts, they will autoly download the version of maven specified in config file in .mvn  
 - pom.xml is the heart of the project. contains dependencies of the project.
   - dependencies are third party libraries and frameworks
   - we can add a dependency ourself in pom file by right click -> generate -> select needed dependency -> click top-left button to download specified dependency, but we should remove version so springtboot/maven can manage the version
